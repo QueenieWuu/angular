@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<title></title>
+	<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+	<input ng-model="name" type="text" placeholder="your name">
+	<h1>hello {{name}}</h1>
+</body>
+</html>
+<!-- 多了一个ng-app,ng-model
+name 是个变量,h1显示的name随着input改变
+体现出ag的数据绑定模式（学习范例，实际开发可能不这么用） -->
